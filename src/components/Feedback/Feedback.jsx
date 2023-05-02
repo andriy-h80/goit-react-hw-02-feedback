@@ -33,6 +33,10 @@ class Feedback extends Component{
         });
     };
 
+    // countTotalFeedback
+
+    // countPositiveFeedbackPercentage
+
     render() {
         return (
         <FeedbackBox>

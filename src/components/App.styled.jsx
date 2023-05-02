@@ -2,8 +2,8 @@ import styled from '@emotion/styled';
 
 export const Container = styled.div`
     display: flex;
-    flexDirection: column;
-    justifyContent: center;
-    alignItems: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     fontSize: 40;
 `;

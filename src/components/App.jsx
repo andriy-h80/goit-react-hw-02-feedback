@@ -1,5 +1,5 @@
 import { Container } from './App.styled';
-import Feedback from './Feedback/Feedback';
+import Feedback from './Feedback';
 
 
 export const App = () => {
