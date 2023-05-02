@@ -4,6 +4,9 @@ export const FeedbackBox = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #eeea9e;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 10px;
 `;
 
 export const FeedbackTitle = styled.h1`
@@ -17,6 +20,8 @@ export const FeedbackButtons = styled.div`
     display: flex;
     justify-content: center;
     gap: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-bottom: 20px;
 `;
 
@@ -37,7 +42,6 @@ export const Button = styled.button`
 `;
 
 export const Statistics = styled.p`
-    
     font-size: 24px;
     font-weight: bold;
     margin-top: 20px;
@@ -45,19 +49,32 @@ export const Statistics = styled.p`
 `;
 
 export const FeedbackGood = styled.span`
+    font-size: 20px;
     color: green;
     font-weight: bold;
-    margin-right: 10px;
 `;
 
 export const FeedbackNeutral = styled.span`
+    font-size: 20px;
     color: blue;
     font-weight: bold;
-    margin-right: 10px;
 `;
 
 export const FeedbackBad = styled.span`
+    font-size: 20px;
     color: red;
     font-weight: bold;
-    margin-right: 10px;
+`;
+
+export const FeedbackTotal = styled.span`
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+`;
+
+export const PositiveFeedbackPercentage = styled.span`
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
 `;
